@@ -1,6 +1,4 @@
-CREATE USER 'db_admin'@'localhost' IDENTIFIED BY 'rmit_password';
-GRANT ALL PRIVILEGES ON *.* TO 'db_admin'@'localhost';
-FLUSH PRIVILEGES;
+DROP DATABASE IF EXISTS rmit_store_db;
 
 CREATE DATABASE rmit_store_db;
 USE rmit_store_db;
