@@ -1,5 +1,5 @@
 import unittest
-import rmit_store_methods as methods
+import method as methods
 
 
 class RmitStoreAppPositiveTestCases(unittest.TestCase):
