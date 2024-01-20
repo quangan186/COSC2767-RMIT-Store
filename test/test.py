@@ -1,11 +1,10 @@
+
 import unittest
 import method as methods
 
 
 class RmitStoreAppPositiveTestCases(unittest.TestCase):
-
-    @staticmethod
-    def test_database_connection():
+    def test_database_connection(self):
         methods.setUp()
         methods.checkDatabaseErrorAppear()
         methods.tearDown()
